@@ -80,13 +80,13 @@
     <h2 style="color: var(--success);">Congratulations!</h2>
     <p id="sel-text" style="font-weight: 700; margin: 10px 0; font-size: 1.1rem;"></p>
     <p>You are selected for the next class </p>
-    <p style="font-weight: 700; color: var(--primary); font-size: 1.2rem; background: #eee; padding: 8px; border-radius: 10px; margin: 10px 0;">[ Industry Profile ] 🎓</p>
+    <p style="font-weight: 700; color: var(--primary); font-size: 1.2rem; background: #eee; padding: 8px; border-radius: 10px; margin: 10px 0;">[ Industry Intruction ] 🎓</p>
     <button class="btn" onclick="closeNotice()" style="width: 100%; margin-top: 15px;">Get Started</button>
 </div>
 
 <div class="container">
     <div class="header">
-        <h2>Digital Assessment</h2>
+        <h2>Digital Earning Opportunity</h2>
         <div class="lang-box">
             <button class="lang-btn active" onclick="setLang('en')">English</button>
             <button class="lang-btn" onclick="setLang('bn')">বাংলা</button>
@@ -107,7 +107,7 @@
             <label id="label-mentor">MENTOR NAME</label>
             <input type="text" id="mentorName" class="neumorph-input" placeholder="Type mentor name...">
         </div>
-        <button class="btn btn-start" onclick="startQuiz()">START ASSESSMENT</button>
+        <button class="btn btn-start" onclick="startQuiz()">START QUIZ</button>
     </div>
 
     <div id="quiz" class="hidden">
@@ -130,7 +130,7 @@
             <div class="score-text" id="pctText">0%</div>
         </div>
         <div id="review-list" class="review-container"></div>
-        <a href="https://m.me/YOUR_PAGE_ID" class="btn btn-start" style="margin-top: 20px;">Contact Mentor</a>
+        <a href="https://www.facebook.com/iloveyoumyisrat" class="btn btn-start" style="margin-top: 20px;">Support</a>
     </div>
 </div>
 
@@ -141,7 +141,7 @@
     let userAnswers = [];
 
     const translations = {
-        en: { start: "START ASSESSMENT", name: "FULL NAME", mentor: "MENTOR NAME", next: "NEXT", finish: "FINISH", alertName: "Please enter your Name!", alertMentor: "Please enter Mentor Name!", alertQuiz: "Please select an answer!" },
+        en: { start: "START QUIZ", name: "FULL NAME", mentor: "MENTOR NAME", next: "NEXT", finish: "FINISH", alertName: "Please enter your Name!", alertMentor: "Please enter Mentor Name!", alertQuiz: "Please select an answer!" },
         bn: { start: "কুইজ শুরু করুন", name: "আপনার নাম", mentor: "মেন্টরের নাম", next: "পরবর্তী", finish: "শেষ করুন", alertName: "আপনার নাম লিখুন!", alertMentor: "মেন্টরের নাম লিখুন!", alertQuiz: "একটি উত্তর নির্বাচন করুন!" }
     };
 
